@@ -13,5 +13,5 @@ function decreament() {
 }
 
 function reset(){
-document.getElementById("counter_value").value = "";
+document.getElementById("counter_value").innerText = '';
 }
