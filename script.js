@@ -8,7 +8,7 @@ function increament() {
   document.getElementById("decrease_btn").innerHTML = "DECREASE";
 
   if (data % 2 == 0) {
-    document.getElementById("counter_value").style.color = "red";
+    document.getElementById("counter_value").style.color = "pink";
   } else {
     document.getElementById("counter_value").style.color = "blue";
   }
